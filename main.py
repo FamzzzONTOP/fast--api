@@ -31,7 +31,7 @@ def get_and_modify_text_from_main_page(driver):
 
     return modified_text
 
-@app.get("/&apikey=famzztzy/fluxus")
+@app.get("/fluxus")
 async def process_link_request(request: Request):
     start_time = time.time()
 
